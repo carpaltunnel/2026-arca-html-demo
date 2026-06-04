@@ -9,31 +9,33 @@
   <meta name="author" content="CC">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/forms.css" rel="stylesheet">
+  <link href="../css/style3.css" rel="stylesheet">
+  <link href="../css/style4.css" rel="stylesheet">
+
+  <style type="text/css">
+  </style>
+
   <title>All About My Chickens</title>
 </head>
 
 <body>
   <div id="header">
-    <div>
-
+      header stuff header stuff header stuff header stuff
+    <div id="inside-header">
+      This is the div with id=inside-header instead of #header
     </div>
-    header stuff
   </div>
 
   <div id="footer">
     footer stuff
   </div>
 
+  <h1>H1 Heading (outside of content div)</h1>
   <div class="content">
-    Content here
-  </div>
-
-  <div class="content">
-    Content there
-  </div>
-
-  <div>
-    <h1>H1 Heading</h1>
+    
+    <h1>H1 Heading (<span>ins<strong>i</strong>de</span> of content div)</h1>
     <h2>H2 Heading</h2>
     <h3>H3 Heading</h3>
     <h4>H4 Heading</h4>
@@ -64,7 +66,8 @@
     <span>Text</span>
   </div>
 
-  <div>
+  <div class="content">
+    
     <h1>Chickens</h1>
     <ul>
       <li>Mango
@@ -93,22 +96,24 @@
   </div>
 
 
+
+
   <div>
-    <table style="border: 1px solid #ddd;">
-      <tr style="border: 1px solid #ddd;">
-        <th style="border: 1px solid #ddd;">Column1</th>
-        <th style="border: 1px solid #ddd;">Column2</th>
-        <th style="border: 1px solid #ddd;">Column3</th>
+    <table>
+      <tr>
+        <th>Column1</th>
+        <th>Column2</th>
+        <th>Column3</th>
       </tr>
-      <tr style="border: 1px solid #ddd;">
-        <td style="border: 1px solid #ddd;">r1-c1</td>
-        <td style="border: 1px solid #ddd;">r1-c2</td>
-        <td style="border: 1px solid #ddd;">r1-c3</td>
+      <tr>
+        <td>r1-c1</td>
+        <td>r1-c2</td>
+        <td>r1-c3</td>
       </tr>
-      <tr style="border: 1px solid #ddd;">
-        <td style="border: 1px solid #ddd;">r2-c1</td>
-        <td style="border: 1px solid #ddd;">r2-c2</td>
-        <td style="border: 1px solid #ddd;">r2-c3</td>
+      <tr>
+        <td>r2-c1</td>
+        <td>r2-c2</td>
+        <td>r2-c3</td>
       </tr>
     </table>
   </div>
@@ -119,7 +124,7 @@
       <input type="range" min="0" max="5"><br>
       <input type="email"><br>
       <!-- placeholder -->
-      Username: <input type="text" name="username" autofocus required placeholder="Username, EG: user@uca.edu"> <br>
+      Username: <input type="text" name="username" required placeholder="Username, EG: user@uca.edu"> <br>
       Password: <input type="password" name="password"> <br>
       Stay logged in: <input type="checkbox" name="stayLoggedIn"> <br>
       For how many hours? <br>
