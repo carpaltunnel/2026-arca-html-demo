@@ -17,8 +17,22 @@ h1 {
   font-size: 2em;
 }
 
-#inside-header {
-  
+body {
+  margin: 0;
+}
+
+#header {
+  margin: 0;
+  padding-left: 0.5em;
+  border-bottom: 0.2em double #a50f0f;
+}
+
+#header a {
+  padding: 0.1em;
+}
+
+.selected-link {
+  background-color: #515151
 }
 
 .content {
@@ -29,13 +43,13 @@ h1 {
   color: red;
 }
 
-.content h1 span {
-  color: blue;
+#data-container {
+  width: 50%;
 }
 
-.content h1 span strong {
-  color: purple;
-  font-size: 500%;
+div .column {
+  display: inline;
+  width: 50%;
 }
 
 table,

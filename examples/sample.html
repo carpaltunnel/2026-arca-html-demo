@@ -22,14 +22,56 @@
 
 <body>
   <div id="header">
-      header stuff header stuff header stuff header stuff
-    <div id="inside-header">
-      This is the div with id=inside-header instead of #header
-    </div>
+      <a href="#chickens">Link 1</a>
+      <a href="" class="selected-link">Link 2</a>
+      <a href="">Link 3</a>
+      <a href="">Link 4</a>
+      <a href="">Link 5</a>
   </div>
 
   <div id="footer">
     footer stuff
+  </div>
+
+  <div id="data-container">
+    <div class="column">
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1
+      This is Column #1 
+    </div>
+    <div class="column">
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+      This is Column #2
+    </div>
+    
   </div>
 
   <h1>H1 Heading (outside of content div)</h1>
@@ -66,34 +108,6 @@
     <span>Text</span>
   </div>
 
-  <div class="content">
-    
-    <h1>Chickens</h1>
-    <ul>
-      <li>Mango
-        <ul>
-          <li>Spry</li>
-          <li>Crazy</li>
-        </ul>
-      </li>
-      <li>Strudel</li>
-      <li>Steve</li>
-      <li>Bagel</li>
-    </ul>
-
-    <h1>Chickens Ranked by Coolness</h1>
-    <ol>
-      <li>Mack
-        <ol>
-          <li>Smart</li>
-          <li>Friendly</li>
-        </ol>
-      </li>
-      <li>Strudel</li>
-      <li>Mango</li>
-      <li>Bagel</li>
-    </ol>
-  </div>
 
 
 
@@ -159,6 +173,36 @@
 
   <br><br>
 
+
+  <div class="content">
+    
+    <h1 id="chickens">Chickens</h1>
+    <ul>
+      <li>Mango
+        <ul>
+          <li>Spry</li>
+          <li>Crazy</li>
+        </ul>
+      </li>
+      <li>Strudel</li>
+      <li>Steve</li>
+      <li>Bagel</li>
+    </ul>
+
+    <h1>Chickens Ranked by Coolness</h1>
+    <ol>
+      <li>Mack
+        <ol>
+          <li>Smart</li>
+          <li>Friendly</li>
+        </ol>
+      </li>
+      <li>Strudel</li>
+      <li>Mango</li>
+      <li>Bagel</li>
+    </ol>
+  </div>
+
   <!-- The picture of Mack goes here : -->
   <img src="./images/mack.jpg" alt="Picture of a white chicken" title="Mack Chicken" style="height: 50%; width: 25%">
 
@@ -167,6 +211,117 @@
     console.log('This is the JS console');
   </script>
 
+<div>
+    <form>
+      <input type="range" min="0" max="5"><br>
+      <input type="email"><br>
+      <!-- placeholder -->
+      Username: <input type="text" name="username" required placeholder="Username, EG: user@uca.edu"> <br>
+      Password: <input type="password" name="password"> <br>
+      Stay logged in: <input type="checkbox" name="stayLoggedIn"> <br>
+      For how many hours? <br>
+      <!-- Set value attributes -->
+      1 <input type="radio" name="loggedInHours" value="1"> <br>
+      4 <input type="radio" name="loggedInHours" value="4"> <br>
+      24 <input type="radio" name="loggedInHours" value="24"> <br>
+
+      <input type="submit" value="Login!">
+      <input type="file">
+      <input type="hidden" name="cost" value="25.00">
+      <br>
+      <select name="singleSelect">
+        <option>aOption 1</option>
+        <option>bOption 2</option>
+        <option>cOption 3</option>
+      </select>
+
+      <select name="multiSelect" multiple>
+        <option>aOption 1</option>
+        <option>bOption 2</option>
+        <option>cOption 3</option>
+      </select>
+      <br>
+      <textarea name="blogPostText"></textarea>
+      <br>
+      <button>This is a button!</button>
+    </form>
+
+    <button>This is a button outside of a form</button>
+  </div>
+  <div>
+    <form>
+      <input type="range" min="0" max="5"><br>
+      <input type="email"><br>
+      <!-- placeholder -->
+      Username: <input type="text" name="username" required placeholder="Username, EG: user@uca.edu"> <br>
+      Password: <input type="password" name="password"> <br>
+      Stay logged in: <input type="checkbox" name="stayLoggedIn"> <br>
+      For how many hours? <br>
+      <!-- Set value attributes -->
+      1 <input type="radio" name="loggedInHours" value="1"> <br>
+      4 <input type="radio" name="loggedInHours" value="4"> <br>
+      24 <input type="radio" name="loggedInHours" value="24"> <br>
+
+      <input type="submit" value="Login!">
+      <input type="file">
+      <input type="hidden" name="cost" value="25.00">
+      <br>
+      <select name="singleSelect">
+        <option>aOption 1</option>
+        <option>bOption 2</option>
+        <option>cOption 3</option>
+      </select>
+
+      <select name="multiSelect" multiple>
+        <option>aOption 1</option>
+        <option>bOption 2</option>
+        <option>cOption 3</option>
+      </select>
+      <br>
+      <textarea name="blogPostText"></textarea>
+      <br>
+      <button>This is a button!</button>
+    </form>
+
+    <button>This is a button outside of a form</button>
+  </div>
+  <div>
+    <form>
+      <input type="range" min="0" max="5"><br>
+      <input type="email"><br>
+      <!-- placeholder -->
+      Username: <input type="text" name="username" required placeholder="Username, EG: user@uca.edu"> <br>
+      Password: <input type="password" name="password"> <br>
+      Stay logged in: <input type="checkbox" name="stayLoggedIn"> <br>
+      For how many hours? <br>
+      <!-- Set value attributes -->
+      1 <input type="radio" name="loggedInHours" value="1"> <br>
+      4 <input type="radio" name="loggedInHours" value="4"> <br>
+      24 <input type="radio" name="loggedInHours" value="24"> <br>
+
+      <input type="submit" value="Login!">
+      <input type="file">
+      <input type="hidden" name="cost" value="25.00">
+      <br>
+      <select name="singleSelect">
+        <option>aOption 1</option>
+        <option>bOption 2</option>
+        <option>cOption 3</option>
+      </select>
+
+      <select name="multiSelect" multiple>
+        <option>aOption 1</option>
+        <option>bOption 2</option>
+        <option>cOption 3</option>
+      </select>
+      <br>
+      <textarea name="blogPostText"></textarea>
+      <br>
+      <button>This is a button!</button>
+    </form>
+
+    <button>This is a button outside of a form</button>
+  </div>
 
 
   <!--  This is a comment  -->
