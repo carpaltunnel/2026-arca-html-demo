@@ -58,3 +58,7 @@ td,
 th {
   border: 1px solid #a50f0f;
 }
+
+div.form {
+  width: 25%;
+}
